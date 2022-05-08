@@ -313,6 +313,10 @@ body {
   .main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head {
     font-size: 1.5rem;
   }
+  .main-container .project .project-details1 .project-text .content, .main-container .project .project-details2 .project-text .content, .main-container .project .project-details3 .project-text .content {
+    padding: 30px 5px !important;
+    color: white;
+  }
   .main-container .project .project-details1 .project-text button, .main-container .project .project-details2 .project-text button, .main-container .project .project-details3 .project-text button {
     display: none;
   }
