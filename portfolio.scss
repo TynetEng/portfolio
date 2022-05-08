@@ -183,6 +183,7 @@ body{
                 left: 0;
                 background: rgba($color: black , $alpha: 0.4);
                 z-index: 1;
+                border-radius: 10px;
             }
         }
         .project-details2{
@@ -198,6 +199,7 @@ body{
                 left: 0;
                 background: rgba($color: black , $alpha: 0.4);
                 z-index: 1;
+                border-radius: 10px;
             }
         }
         .project-details3{
@@ -213,6 +215,7 @@ body{
                 left: 0;
                 background: rgba($color: black , $alpha: 0.4);
                 z-index: 1;
+                border-radius: 10px;
             }
         }
     }
@@ -309,6 +312,16 @@ body{
     }
     .main-container{
         .project{
+            .project-details1, .project-details2, .project-details3{
+                .project-text{
+                    .project-head{
+                        font-size: 1.5rem;
+                    }
+                    button{
+                        display: none;
+                    }
+                }
+            }
             .project-details{
                 width: 200px;
             }

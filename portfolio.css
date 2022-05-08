@@ -183,6 +183,7 @@ body {
   left: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
+  border-radius: 10px;
 }
 .main-container .project .project-details2 {
   background-image: url("global.png");
@@ -198,6 +199,7 @@ body {
   left: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
+  border-radius: 10px;
 }
 .main-container .project .project-details3 {
   background-image: url("samsung2.jpg");
@@ -213,6 +215,7 @@ body {
   left: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
+  border-radius: 10px;
 }
 
 /* END OF MAIN SECTION*/
@@ -308,6 +311,12 @@ body {
     color: blue;
   }
 
+  .main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head {
+    font-size: 1.5rem;
+  }
+  .main-container .project .project-details1 .project-text button, .main-container .project .project-details2 .project-text button, .main-container .project .project-details3 .project-text button {
+    display: none;
+  }
   .main-container .project .project-details {
     width: 200px;
   }
