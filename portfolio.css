@@ -153,18 +153,17 @@ body {
   height: 250px;
 }
 .main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head {
-  margin-top: 10px;
   color: white;
   font-size: 1.9rem;
   text-align: center;
 }
 .main-container .project .project-details1 .project-text .content, .main-container .project .project-details2 .project-text .content, .main-container .project .project-details3 .project-text .content {
-  padding: 25px 5px;
+  padding: 23px 5px 0px 5px;
   color: white;
 }
 .main-container .project .project-details1 .project-text button, .main-container .project .project-details2 .project-text button, .main-container .project .project-details3 .project-text button {
   border: 3px solid #86ddff;
-  width: 40%;
+  width: 42%;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   padding: 15px;
   margin-bottom: 50px;

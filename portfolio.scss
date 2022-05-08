@@ -152,18 +152,17 @@ body{
                     height: 250px;
                 }
                 .project-head{
-                    margin-top: 10px;
                     color: white;
                     font-size: 1.9rem;
                     text-align: center;
                 }
                 .content{
-                    padding: 25px 5px;
+                    padding: 23px 5px 0px 5px;
                     color: white;
                 }
                 button{
                     border: 3px solid $color3;
-                    width: 40%;
+                    width: 42%;
                     box-shadow: -15px 7px 30px rgba($color: #000000, $alpha: 0.2);
                     padding: 15px;
                     margin-bottom: 50px;
