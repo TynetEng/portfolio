@@ -264,6 +264,10 @@ body {
   color: blue;
 }
 
+.team {
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .parent {
     margin: 0px !important;
