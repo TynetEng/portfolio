@@ -14,6 +14,10 @@ body {
   font-family: "Caladea";
 }
 
+#scrollTopMobile {
+  display: none;
+}
+
 /* NAVBAR SECTION */
 .nav-bar {
   position: fixed;
@@ -36,7 +40,7 @@ body {
   color: white;
 }
 .nav-bar ul li #name {
-  color: blue;
+  color: #0061AB;
   font-size: 30px;
   font-weight: bold;
 }
@@ -94,10 +98,10 @@ body {
   z-index: 2;
 }
 .text-section .text {
-  color: blue;
+  color: #0061AB;
 }
 .text-section #resume {
-  border: 2px solid blue;
+  border: 2px solid #0061AB;
   padding: 10px;
   width: 32%;
   margin-top: 20px;
@@ -261,7 +265,7 @@ body {
   width: 30%;
   margin: 25px 35%;
   padding-top: 30px;
-  color: blue;
+  color: #0061AB;
 }
 
 .team {
@@ -277,7 +281,7 @@ body {
   right: 20px;
 }
 #scrollTop button {
-  background-color: blue;
+  background-color: #0061AB;
   border: 0;
   color: white;
   padding: 10px;
@@ -331,7 +335,7 @@ body {
   .mobile-nav-bar ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: blue;
+    color: #0061AB;
   }
 
   .main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head {
@@ -387,7 +391,7 @@ body {
     right: 5px;
   }
   #scrollTopMobile button {
-    background-color: blue;
+    background-color: #0061AB;
     border: 0;
     color: white;
     padding: 10px;

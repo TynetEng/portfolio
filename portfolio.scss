@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
 
-$color: blue;
-$color2: #3ba0ff;
+$color: #0061AB;
+$color2: #3282cc;
 $color3: #86ddff;
 $text:white;
 *{
@@ -16,7 +16,9 @@ $text:white;
 body{
     font-family: 'Caladea';
 }
-
+#scrollTopMobile{
+    display: none;
+}
 /* NAVBAR SECTION */
 .nav-bar{
     position: fixed;
