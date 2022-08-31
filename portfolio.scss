@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+
 $color: blue;
 $color2: #3ba0ff;
 $color3: #86ddff;
@@ -29,6 +30,7 @@ body{
         list-style: none;
         height: 10vh;
         background-color: rgba($color: grey , $alpha: 0.2);
+
         li{
             a{
                 text-decoration: none;
@@ -269,8 +271,27 @@ body{
 .team{
     font-weight: bold;
 }
+#scrollTop{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    button{
+        background-color: $color;
+        border: 0;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
 
 @media(max-width:768px){
+    #scrollTop{
+        display: none;
+    }
     .parent{
         margin: 0px !important;
         padding: 0px !important;
@@ -364,6 +385,22 @@ body{
                 // width: 100%;
                 margin: 50px 0px;
             }
+        }
+    }
+    #scrollTopMobile{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        position: fixed;
+        bottom: 20px;
+        right: 5px;
+    
+        button{
+            background-color: $color;
+            border: 0;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
         }
     }
 }

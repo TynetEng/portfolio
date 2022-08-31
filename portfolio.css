@@ -268,7 +268,27 @@ body {
   font-weight: bold;
 }
 
+#scrollTop {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#scrollTop button {
+  background-color: blue;
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 @media (max-width: 768px) {
+  #scrollTop {
+    display: none;
+  }
+
   .parent {
     margin: 0px !important;
     padding: 0px !important;
@@ -356,6 +376,22 @@ body {
   }
   .main-container .project .project-details1, .main-container .project .project-details2, .main-container .project .project-details3 {
     margin: 50px 0px;
+  }
+
+  #scrollTopMobile {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+  }
+  #scrollTopMobile button {
+    background-color: blue;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
   }
 }
 
