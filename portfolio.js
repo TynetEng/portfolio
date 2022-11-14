@@ -27,15 +27,15 @@ scrollTopButton=()=>{
 }
 
 scrollAbout=()=>{
-    window.scrollTo(0, 1200);
+    window.scrollTo(0, 1600);
 }
 
 scrollProject=()=>{
-    window.scrollTo(0, 680);
+    window.scrollTo(0, 580);
 }
 
 scrollContact=()=>{
-    window.scrollTo(0, 1700);
+    window.scrollTo(0, 1800);
 }
 
 // ======= End Of Scroll To Top Desktop =============
@@ -67,10 +67,10 @@ scrollProjectMobile=()=>{
     window.scrollTo(0, 750);
 }
 scrollAboutMobile=()=>{
-    window.scrollTo(0, 2000);
+    window.scrollTo(0, 2400);
 }
 scrollContactMobile=()=>{
-    window.scrollTo(0, 2500);
+    window.scrollTo(0, 2800);
 }
 
 // ======= End Of Scroll To Top Mobile View =============
