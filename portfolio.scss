@@ -147,7 +147,7 @@ body {
   flex-flow: wrap;
 }
 
-.main-container .project .project-details1, .main-container .project .project-details2, .main-container .project .project-details3, .main-container .project .project-details4 {
+.main-container .project .project-details1, .main-container .project .project-details2, .main-container .project .project-details3, .main-container .project .project-details4, .main-container .project .project-details5{
   width: 300px;
   height: 300px;
   position: relative;
@@ -156,7 +156,7 @@ body {
   margin: 50px;
 }
 
-.main-container .project .project-details1 .project-text, .main-container .project .project-details2 .project-text, .main-container .project .project-details3 .project-text, .main-container .project .project-details4 .project-text {
+.main-container .project .project-details1 .project-text, .main-container .project .project-details2 .project-text, .main-container .project .project-details3 .project-text, .main-container .project .project-details4 .project-text,.main-container .project .project-details5 .project-text {
   position: absolute;
   padding: 2px;
   width: 100%;
@@ -167,22 +167,22 @@ body {
   overflow: hidden;
 }
 
-.main-container .project .project-details1 .project-text:hover, .main-container .project .project-details2 .project-text:hover, .main-container .project .project-details3 .project-text:hover, .main-container .project .project-details4 .project-text:hover {
+.main-container .project .project-details1 .project-text:hover, .main-container .project .project-details2 .project-text:hover, .main-container .project .project-details3 .project-text:hover, .main-container .project .project-details4 .project-text:hover,.main-container .project .project-details5 .project-text:hover {
   height: 250px;
 }
 
-.main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head, .main-container .project .project-details4 .project-text .project-head {
+.main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head, .main-container .project .project-details4 .project-text .project-head, .main-container .project .project-details5 .project-text .project-head {
   color: white;
   font-size: 1.9rem;
   text-align: center;
 }
 
-.main-container .project .project-details1 .project-text .content, .main-container .project .project-details2 .project-text .content, .main-container .project .project-details3 .project-text .content, .main-container .project .project-details4 .project-text .content {
+.main-container .project .project-details1 .project-text .content, .main-container .project .project-details2 .project-text .content, .main-container .project .project-details3 .project-text .content, .main-container .project .project-details4 .project-text .content, .main-container .project .project-details5 .project-text .content {
   padding: 23px 5px 0px 5px;
   color: white;
 }
 
-.main-container .project .project-details1 .project-text button, .main-container .project .project-details2 .project-text button, .main-container .project .project-details3 .project-text button, .main-container .project .project-details4 .project-text button {
+.main-container .project .project-details1 .project-text button, .main-container .project .project-details2 .project-text button, .main-container .project .project-details3 .project-text button, .main-container .project .project-details4 .project-text button, .main-container .project .project-details5 .project-text button {
   border: 3px solid #86ddff;
   width: 42%;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -253,6 +253,24 @@ body {
 }
 
 .main-container .project .project-details4 .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.main-container .project .project-details5 {
+  background-image: url("weather.avif");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.main-container .project .project-details5 .overlay {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -389,16 +407,16 @@ body {
     color: #0061AB;
   }
 
-  .main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head, .main-container .project .project-details4 .project-text .project-head {
+  .main-container .project .project-details1 .project-text .project-head, .main-container .project .project-details2 .project-text .project-head, .main-container .project .project-details3 .project-text .project-head, .main-container .project .project-details4 .project-text .project-head, .main-container .project .project-details5 .project-text .project-head {
     font-size: 1.5rem;
   }
 
-  .main-container .project .project-details1 .project-text .content, .main-container .project .project-details2 .project-text .content, .main-container .project .project-details3 .project-text .content, .main-container .project .project-details4 .project-text .content {
+  .main-container .project .project-details1 .project-text .content, .main-container .project .project-details2 .project-text .content, .main-container .project .project-details3 .project-text .content, .main-container .project .project-details4 .project-text .content, .main-container .project .project-details5 .project-text .content {
     padding: 30px 5px !important;
     color: white;
   }
 
-  .main-container .project .project-details1 .project-text button, .main-container .project .project-details2 .project-text button, .main-container .project .project-details3 .project-text button, .main-container .project .project-details4 .project-text button {
+  .main-container .project .project-details1 .project-text button, .main-container .project .project-details2 .project-text button, .main-container .project .project-details3 .project-text button, .main-container .project .project-details4 .project-text button, .main-container .project .project-details5 .project-text button {
     display: none;
   }
 
